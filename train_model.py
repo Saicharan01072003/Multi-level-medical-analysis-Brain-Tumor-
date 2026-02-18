@@ -11,8 +11,10 @@ from sklearn.preprocessing import StandardScaler
 import json
 
 # Path to the dataset directory
-TRAIN_IMAGE_DIR = r'C:\Users\saikr\OneDrive\Desktop\MRI_Error_Detection_Project\Brain MRI Images\Train'
-VALIDATION_IMAGE_DIR = r'C:\Users\saikr\OneDrive\Desktop\MRI_Error_Detection_Project\Brain MRI Images\Validation'
+#TRAIN_IMAGE_DIR = r'C:\Users\saikr\OneDrive\Desktop\MRI_Error_Detection_Project\Brain MRI Images\Train'
+#VALIDATION_IMAGE_DIR = r'C:\Users\saikr\OneDrive\Desktop\MRI_Error_Detection_Project\Brain MRI Images\Validation'
+TRAIN_IMAGE_DIR = "Brain MRI Images\\Train"
+VALIDATION_IMAGE_DIR = "Brain MRI Images\\Validation"
 
 # Load lobe disadvantages from JSON file (optional)
 with open('brain_lobes_info.json') as json_file:
