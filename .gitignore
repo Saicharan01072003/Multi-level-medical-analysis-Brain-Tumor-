@@ -1,2 +1,7 @@
 venv/
+__pycache__/
+*.pyc
+uploads/
+Brain MRI IMages/
+Brain_tumor_images/
 models/
